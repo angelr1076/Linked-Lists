@@ -1,8 +1,8 @@
-// LinkedList class / factory, which will represent the full list.
 const nodeFactory = (value, next = null) => {
   return { value, next };
 };
 
+// LinkedList class / factory, which will represent the full list.
 const linkedListFactory = () => {
   let head = null;
   let tail = null;
