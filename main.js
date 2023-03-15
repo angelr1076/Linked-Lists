@@ -186,6 +186,8 @@ const linkedList = linkedListFactory();
 
 console.log('Append:', linkedList.append(1)); // { value: 1, next: null }
 console.log('Append:', linkedList.append(2)); // { value: 2, next: null }
+console.log('Append:', linkedList.append(3));
+console.log('Append:', linkedList.append(4));
 
 console.log('Prepend:', linkedList.prepend(0)); // { value: 0, next: { value: 1, next: [Object] } }
 
@@ -204,3 +206,4 @@ console.log('InsertAt:', linkedList.insertAt(2, 1)); // { value: 2, next: { valu
 console.log('RemoveAt:', linkedList.removeAt(1)); // { value: 1, next: null }
 
 console.log('Size:', linkedList.size()); // 2
+console.log('Visual', linkedList.toString());
